@@ -1,0 +1,1069 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: whisper;
+    src: url("../fonts/ofont.ru_Miama Nueva.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("../fonts/insight-melody.ttf");
+}
+@font-face{
+    font-family: font3;
+    src:url("../fonts/1926-font.otf")
+}
+.seallbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.menu_bar{
+    display: none;
+}
+.seallbtn button{
+    outline: none!important;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #916f7c;
+    color:#fff;
+}
+.seallbtn button:hover{
+    opacity: 0.70;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+   
+}
+.ds_end{
+    display: flex;
+    justify-content: flex-end;
+}
+.close{
+    width: 30px;
+    height: 30px;
+}
+.menu_hidden{
+    width: 50%;
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+   top:0;
+   bottom:0;
+   right: -50%;
+   list-style: none;
+   background-color: #dce5c9;
+   z-index: 6000;
+   transition: 0.5s all ease-in-out;
+
+}
+.menu_hidden li a{
+    display: block;
+    padding: 20px 0;
+    font-size: 20px;
+    text-decoration: none!important;
+    color: rgb(48, 52, 0)!important;
+    font-weight: 600;
+}
+.menu_hidden li a:hover{
+   opacity: 70%;
+}
+#seall1{
+    display: none;
+}
+#seall3{
+    display: none;
+}
+.hidden1{
+    display: none;
+}
+.hidden2{
+    display: none;
+}
+.hidden3{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+.ds_block{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.navpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: #dce5c9;
+    height: 15vh;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+}
+
+.logo_part{
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu_part{
+    display: flex;
+    width: 60%;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+}
+.menu_part li a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none!important;
+    color: rgb(48, 52, 0)!important;
+    font-weight: 600;
+}
+.menu_part li a:hover{
+   opacity: 70%;
+}
+.heading{
+    font-family: font2;
+    font-size: 90px;
+    color: rgb(73,85,0);
+  margin: 100px 0 0;
+    padding: 50px;
+    border: 4px solid #b28f32;
+    box-sizing: border-box;
+
+}
+.section1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   align-items: center;
+}
+.flower_anim1{
+    background-image: url("../img/bgg 1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 40%;
+    background-position: top 0px right 0;
+    animation: anim_opacity 3s  linear;
+     animation-fill-mode: forwards ;
+     animation-delay: 0.5s;
+     opacity: 0;
+     
+    
+}
+.flower_anim2{
+    background-image: url("../img/bgg 2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:400px;
+    width: 40%;
+    background-position:  top 0px left 0;
+    animation: anim_opacity 3s  linear;
+     animation-fill-mode: forwards ;
+     animation-delay: 0.5s;
+     opacity: 0;
+     
+}
+
+
+.wedding{
+    font-family: whisper;
+    font-size: 50px;
+    color: rgb(73, 85, 0);
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0 20px;
+    box-sizing: border-box;    
+    
+}
+.flower_img{
+    width: 200px;
+    height: 200px;
+     
+}
+.display_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+
+}
+.invites_examples{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    
+}
+.heading_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.examples1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-image: url("../img/envelopebg 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-decoration:none!important;
+    justify-content: center;
+    align-items: center;
+    
+}
+.examples2{
+    width: 250px;
+    height: 250px;
+    display: block;
+    background-image: url("../img/baloon 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:   center;
+    display: flex;
+    text-decoration:none!important;
+    justify-content: center;
+    align-items: center;
+    
+}
+.examples3{
+    width: 275px;
+    height: 275px;
+    display: block;
+    background-image: url("../img/frame3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:   center;
+    display: flex;
+    text-decoration:none!important;
+    justify-content: center;
+    align-items: center;
+    
+}
+.examples1:hover{
+    box-shadow: 12px 12px 12px 1px rgb(0 0 0 / 20%);
+}
+.examples2:hover{
+    box-shadow: 12px 12px 12px 1px rgb(0 0 0 / 20%);
+}
+.examples3:hover{
+    box-shadow: 12px 12px 12px 1px rgb(0 0 0 / 20%);
+}
+.examples1 img{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+.examples2 img{
+    margin-top: 10px;
+    width: 135px;
+    height: 135px;
+    margin-left: 65px;
+}
+.examples3 img{
+    margin-left: 5px;
+    width: 160px;
+    height: 180px;
+ 
+}
+.baloon_img{
+    width: 200px;
+    height: 250px;
+}
+.price{
+    margin: 20px 0 5px;
+    font-size: 18px;
+    color: #916f7c;
+    font-family: font2;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    
+}
+.framename{
+    margin:  0;
+    font-size: 18px;
+    color: #916f7c;
+    text-align: center;
+}
+
+.section2{
+    padding: 50px 60px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.section3{
+    padding: 50px 60px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.section4{
+    padding: 50px 60px;
+    box-sizing: border-box;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #dce5c9;;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  cursor: pointer;
+}
+.logo a{
+    width: 100%
+}
+.site{
+    text-decoration: none!important;
+    color: #fff!important;
+    font-family: font2;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.ds_block{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.iconpart{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.iconbox{
+    width: 25px;
+    height: 25px;
+}
+.iconbox:hover{
+    opacity: 0.80;
+}
+
+@keyframes anim_opacity {
+     0%{
+          opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+ 
+
+@media(min-width:1920px){
+    .logo_part{
+        width: 100px;
+        height: 100px;
+    }
+    .heading {
+        font-size: 130px;
+    }
+    .menu_part li a {
+        font-size: 34px;
+    }
+    .iconbox {
+        width: 40px;
+        height: 40px;
+    }
+    .iconpart {
+        width: 170px;
+    }
+
+    .flower_anim1{
+        height: 700px;
+    }
+    .flower_anim2{
+        height:700px;
+    }
+    
+    .examples1 {
+        width: 400px;
+        height: 400px;
+    }
+    .examples1 img {
+        width: 200px;
+        height: 227px;
+    }
+    .price {
+        font-size: 28px;
+    }
+    .framename {
+        font-size: 25px;
+    }
+    .examples2 {
+        width: 450px;
+        height: 300px;
+    }
+    .examples2 img{
+        margin-top: 10px;
+        width: 234px;
+        height: 257px;
+        margin-left: 116px;
+    }
+    .flower_img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .baloon_img {
+        width: 280px;
+        height: 330px;
+    }
+    .section2 {
+        padding: 50px 100px;
+    }
+    .section3 {
+        padding: 50px 100px;
+    }
+    .section4 {
+        padding: 50px 100px;
+    }
+    .seallbtn button {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .site {
+        font-size: 26px;
+}
+}
+
+@media(min-width:1660px) and (max-width:1920px){
+    .logo_part{
+        width: 100px;
+        height: 100px;
+    }
+    .heading {
+        font-size: 100px;
+    }
+    .menu_part li a {
+        font-size: 26px;
+    }
+    .iconbox {
+        width: 40px;
+        height: 40px;
+    }
+    .iconpart {
+        width: 170px;
+    }
+    
+    .flower_anim1{
+        height: 600px;
+    }
+    .flower_anim2{
+        height:600px;
+    }
+    .examples1 {
+        width: 400px;
+        height: 400px;
+    }
+    .examples1 img {
+        width: 200px;
+        height: 227px;
+    }
+    .price {
+        font-size: 24px;
+    }
+    .framename {
+        font-size: 22px;
+    }
+    .examples2 {
+        width: 360px;
+        height: 290px;
+    }
+    .examples2 img{
+        margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 89px;
+    }
+    .flower_img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .baloon_img {
+        width: 280px;
+        height: 290px;
+    }
+    .section2 {
+        padding: 50px 100px;
+    }
+    .section3 {
+        padding: 50px 100px;
+    }
+    .section4 {
+        padding: 50px 100px;
+    }
+    .seallbtn button {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .site {
+        font-size: 26px;
+}
+}
+
+
+@media(min-width:1440px) and (max-width:1660px){
+    .logo_part{
+        width: 100px;
+        height: 100px;
+    }
+    .heading {
+        font-size: 100px;
+    }
+    .menu_part li a {
+        font-size: 26px;
+    }
+    .iconbox {
+        width: 40px;
+        height: 40px;
+    }
+    .iconpart {
+        width: 170px;
+    }
+    .flower_anim1{
+        height: 500px;
+        }
+       .flower_anim2{
+         height:500px;
+         background-position: top -8px left 0;
+       }
+
+ 
+    .examples2 {
+        width: 300px;
+        height: 250px;
+    }
+    .examples2 img{
+        margin-top: 10px;
+        width: 170px;
+        height: 180px;
+        margin-left: 76px;
+    }
+    .flower_img {
+        width: 250px;
+        height: 250px;
+    }
+ 
+    .baloon_img {
+        width: 230px;
+        height: 290px;
+    }
+    .section2 {
+        padding: 50px 60px;
+    }
+    .section3 {
+        padding: 50px 60px;
+    }
+    .section4 {
+        padding: 50px 60px;
+    }
+    .seallbtn button {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .site {
+        font-size: 26px;
+}
+}
+@media(min-width:1024px) and (max-width:1144px){
+    .logo_part{
+        width: 80px;
+        height: 80px;
+    }
+    .heading {
+        font-size: 80px;
+        margin-top: 80px;
+    }
+    .menu_part li a {
+        font-size: 18px;
+    }
+    .iconbox {
+        width: 30px;
+        height: 30px;
+    }
+    .iconpart {
+        width: 120px;
+    }
+    .flower_anim1{
+        height: 500px;
+        }
+       .flower_anim2{
+         height:500px;
+         background-position: top 20px left 0;
+       }
+ 
+    .wedding{
+        font-size: 34px;
+    }
+    .examples2 {
+        width: 235px;
+        height: 230px;
+    }
+    .examples2 img{
+        margin-top: 10px;
+        width: 134px;
+        height: 135px;
+        margin-left: 63px;
+    }
+    .examples1 {
+        width: 200px;
+        height: 200px;
+    }
+    .examples1 img {
+        width: 105px;
+        height: 114px;
+ }
+ .examples3 {
+    width: 220px;
+    height: 240px;
+}
+.examples3 img {
+    margin-left: 5px;
+    width: 148px;
+    height: 168px;
+}
+ .price{
+    font-size: 16px;
+ }
+ .framename {
+    font-size: 14px;
+ }
+    .flower_img {
+        width: 200px;
+        height: 200px;
+    }
+    .baloon_img {
+        width: 175px;
+        height: 190px;
+    }
+
+    .section2 {
+        padding: 50px 60px;
+    }
+    .section3 {
+        padding: 50px 60px;
+    }
+    .section4 {
+        padding: 50px 60px;
+    }
+    .seallbtn button {
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .site {
+        font-size: 18px;
+        margin-bottom: 5px;
+}
+
+}
+
+@media(min-width:920px) and (max-width:1024px){
+    .menu_bar{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    .menu_part{
+        display: none;
+    }
+    .logo_part{
+        width: 60px;
+        height: 60px;
+    }
+    .heading {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+ 
+    .iconbox {
+        width: 30px;
+        height: 30px;
+    }
+    .iconpart {
+        width: 30%;
+    }
+    .flower_anim1{
+        height:400px;
+ }
+       .flower_anim2{
+         height:380px;
+         background-position: top 0px left 0;
+   }
+    .wedding{
+        font-size: 34px;
+    }
+    .examples2 {
+        width: 200px;
+        height: 232px;
+    }
+    .examples2 img{
+        margin-top: 10px;
+        width: 110px;
+        height: 115px;
+        margin-left: 48px;
+    }
+    .examples1 {
+        width: 200px;
+        height: 200px;
+    }
+    .examples1 img {
+        width: 105px;
+        height: 114px;
+ }
+ .examples3 {
+    width: 210px;
+    height: 230px;
+}
+.examples3 img {
+    margin-left:0;
+    width: 130px;
+    height: 148px;
+}
+ .price{
+    font-size: 14px;
+ }
+ .framename {
+    font-size: 12px;
+ }
+    .flower_img {
+        width: 200px;
+        height: 200px;
+    }
+    .baloon_img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .section2 {
+        padding: 50px 60px;
+    }
+    .section3 {
+        padding: 50px 60px;
+    }
+    .section4 {
+        padding: 50px 60px;
+    }
+    .seallbtn button {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    .site {
+        font-size: 18px;
+}
+   .price_mrg{
+    margin-top: 0px;
+}
+
+}
+
+
+@media(min-width:768px) and (max-width:920px){
+    .menu_bar{
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+    .menu_part{
+        display: none;
+    }
+    .logo_part{
+        width: 50px;
+        height: 50px;
+    }
+    .heading {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+ 
+    .iconbox {
+        width: 25px;
+        height: 25px;
+    }
+    .iconpart {
+        width: 30%;
+    }
+    .flower_anim1{
+        height:300px;
+    } 
+       .flower_anim2{
+         height:280px;
+         background-position: top 0px left 0;
+   }
+    .wedding{
+        font-size: 24px;
+        padding: 20px 0 20px;
+    }
+    .examples2 {
+        width: 170px;
+        height: 200px;
+    }
+    .examples2 img{
+        margin-top: 3px;
+        width: 96px;
+        height: 98px;
+        margin-left: 48px;
+    }
+    .examples1 {
+        width: 175px;
+        height: 175px;
+    }
+    .examples1 img {
+        width: 97px;
+        height: 95px;
+ }
+ .examples3 {
+    width: 175px;
+    height: 175px;
+}
+.examples3 img {
+    margin-left:0;
+    width: 105px;
+    height: 125px;
+}
+ .price{
+    font-size: 12px;
+ }
+ .framename {
+    font-size: 11px;
+ }
+    .flower_img {
+        width: 160px;
+        height: 160px;
+    }
+    .baloon_img {
+        width: 115px;
+        height: 130px;
+    }
+
+    .section2 {
+        padding: 50px 40px;
+    }
+    .section3 {
+        padding: 50px 40px;
+    }
+    .section4 {
+        padding: 50px 40px;
+    }
+    .seallbtn button {
+        width: 100px;
+        height: 26px;
+        font-size: 10px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    .site {
+        font-size: 14px;
+        margin-bottom: 10px;
+}
+.invites_examples {
+    padding-top: 40px;
+}
+.price_mrg{
+    margin-top: 0px;
+}
+footer{
+    padding-top: 10px;
+}
+
+}
+
+
+@media(min-width:320px) and (max-width:768px){
+
+    .navpart {
+        padding: 10px 15px;
+    }
+    .menu_bar{
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+    .menu_part{
+        display: none;
+    }
+    .logo_part{
+        width: 50px;
+        height: 50px;
+    }
+    .heading {
+        font-size: 35px;
+        padding: 15px;
+       margin-top: 0;
+    }
+    .iconbox {
+        width: 20px;
+        height: 20px;
+    }
+    .iconpart {
+        width: 45%;
+    }
+    .flower_anim1{
+        height:300px;
+        background-position: top 40% right -15px;
+       
+    } 
+       .flower_anim2{
+         height:280px;
+         background-position: top 40% left -15px;
+   }
+    .wedding{
+        font-size: 20px;
+        padding: 20px 0 20px;
+    }
+    .examples2 {
+        width: 190px;
+        height: 200px;
+    }
+    .examples2 img{
+        margin-top: 3px;
+        width: 103px;
+        height: 114px;
+        margin-left: 48px;
+    }
+    .examples1 {
+        width: 175px;
+        height: 175px;
+    }
+    .examples1 img {
+        width: 97px;
+        height: 95px;
+   }
+  .examples3 {
+    width: 175px;
+    height: 175px;
+  }
+  .examples3 img {
+    margin-left:0;
+    width: 105px;
+    height: 125px;
+}
+ .price{
+    font-size: 12px;
+  }
+   .framename {
+    font-size: 11px;
+    }
+    .flower_img {
+        width: 160px;
+        height: 160px;
+    }
+    .baloon_img {
+        width: 115px;
+        height: 130px;
+    }
+    .section2 {
+        padding:30px 10px 0;
+    }
+    .section3 {
+        padding:  0 10px 30px;
+    }
+    .section4 {
+        padding: 30px;
+    }
+    .seallbtn button {
+        width: 100px;
+        height: 26px;
+        font-size: 10px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    .site {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    .invites_examples {
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+   }
+   .display_column{
+    width: 100%;
+    margin-bottom: 30px;
+   }
+   .seallbtn{
+    margin-top: 20px;
+   }
+   .other_heading{
+   padding-bottom: 0;
+    line-height: 1.75;
+   }
+}
+@media(min-width:400px) and (max-width:768px){
+    .flower_anim1{
+        background-position: top 40% right 0px;
+    }
+    .flower_anim2{
+        background-position: top 40% left 0px;
+    }
+}
