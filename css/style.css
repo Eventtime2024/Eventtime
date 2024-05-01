@@ -224,8 +224,6 @@ header{
 .examples1{
     width: 300px;
     height: 300px;
-    display: block;
-    background-image: url("../img/envelopebg 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -235,11 +233,18 @@ header{
     align-items: center;
     
 }
+.w1{
+    background-image:  url("../img/Group 4 (1).png");
+}
+.w2{
+    background-image:  url("../img/Group 8.png");
+}
+.w3{
+    background-image:  url("../img/Group 6.png");
+}
 .examples2{
     width: 250px;
     height: 250px;
-    display: block;
-    background-image: url("../img/baloon 1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:   center;
@@ -249,11 +254,21 @@ header{
     align-items: center;
     
 }
+.b1{
+    background-image: url("../img/Group 9.svg");
+}
+.b2{
+    background-image: url("../img/Group 11.svg");
+}
+.b3{
+    background-image: url("../img/Group 10.svg");
+}
+.b4{
+    background-image: url("../img/Group 12.svg");
+}
 .examples3{
-    width: 275px;
-    height: 275px;
-    display: block;
-    background-image: url("../img/frame3.jpg");
+    width: 250px;
+    height: 270px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:   center;
@@ -262,6 +277,9 @@ header{
     justify-content: center;
     align-items: center;
     
+}
+.g1{
+    background-image: url("../img/Group 13.png");
 }
 .examples1:hover{
     box-shadow: 12px 12px 12px 1px rgb(0 0 0 / 20%);
@@ -272,23 +290,7 @@ header{
 .examples3:hover{
     box-shadow: 12px 12px 12px 1px rgb(0 0 0 / 20%);
 }
-.examples1 img{
-    margin-top: 10px;
-    width: 150px;
-    height: 150px;
-}
-.examples2 img{
-    margin-top: 10px;
-    width: 135px;
-    height: 135px;
-    margin-left: 65px;
-}
-.examples3 img{
-    margin-left: 5px;
-    width: 160px;
-    height: 180px;
- 
-}
+
 .baloon_img{
     width: 200px;
     height: 250px;
@@ -417,12 +419,16 @@ footer{
     }
     
     .examples1 {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
-    .examples1 img {
-        width: 200px;
-        height: 227px;
+    .examples2 {
+        width: 500px;
+        height: 500px;
+    }
+    .examples3 {
+        width: 500px;
+        height: 500px;
     }
     .price {
         font-size: 28px;
@@ -430,16 +436,8 @@ footer{
     .framename {
         font-size: 25px;
     }
-    .examples2 {
-        width: 450px;
-        height: 300px;
-    }
-    .examples2 img{
-        margin-top: 10px;
-        width: 234px;
-        height: 257px;
-        margin-left: 116px;
-    }
+   
+
     .flower_img {
         width: 250px;
         height: 250px;
@@ -501,9 +499,13 @@ footer{
         width: 400px;
         height: 400px;
     }
-    .examples1 img {
-        width: 200px;
-        height: 227px;
+    .examples2 {
+        width: 450px;
+        height: 450px;
+    }
+    .examples3 {
+        width: 400px;
+        height: 400px;
     }
     .price {
         font-size: 24px;
@@ -511,16 +513,8 @@ footer{
     .framename {
         font-size: 22px;
     }
-    .examples2 {
-        width: 360px;
-        height: 290px;
-    }
-    .examples2 img{
-        margin-top: 10px;
-    width: 200px;
-    height: 200px;
-    margin-left: 89px;
-    }
+   
+ 
     .flower_img {
         width: 250px;
         height: 250px;
@@ -579,18 +573,20 @@ footer{
          height:500px;
          background-position: top -8px left 0;
        }
-
+       .examples1 {
+        width:360px;
+        height: 360px;
+      }
  
     .examples2 {
-        width: 300px;
-        height: 250px;
-    }
-    .examples2 img{
-        margin-top: 10px;
-        width: 170px;
-        height: 180px;
-        margin-left: 76px;
-    }
+        width: 350px;
+        height: 350px;
+    } 
+    .examples3 {
+        width:360px;
+        height: 360px;
+      }
+   
     .flower_img {
         width: 250px;
         height: 250px;
@@ -652,33 +648,22 @@ footer{
     .wedding{
         font-size: 34px;
     }
-    .examples2 {
-        width: 235px;
-        height: 230px;
-    }
-    .examples2 img{
-        margin-top: 10px;
-        width: 134px;
-        height: 135px;
-        margin-left: 63px;
-    }
+   
+   
     .examples1 {
-        width: 200px;
-        height: 200px;
+        width: 280px;
+        height: 280px;
     }
-    .examples1 img {
-        width: 105px;
-        height: 114px;
+    .examples2 {
+        width: 260px;
+        height: 260px;
+    }
+
+   .examples3 {
+    width: 280px;
+    height: 280px;
  }
- .examples3 {
-    width: 220px;
-    height: 240px;
-}
-.examples3 img {
-    margin-left: 5px;
-    width: 148px;
-    height: 168px;
-}
+
  .price{
     font-size: 16px;
  }
@@ -754,39 +739,27 @@ footer{
     .wedding{
         font-size: 34px;
     }
-    .examples2 {
-        width: 200px;
-        height: 232px;
-    }
-    .examples2 img{
-        margin-top: 10px;
-        width: 110px;
-        height: 115px;
-        margin-left: 48px;
-    }
+   
+
     .examples1 {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
-    .examples1 img {
-        width: 105px;
-        height: 114px;
- }
- .examples3 {
-    width: 210px;
-    height: 230px;
-}
-.examples3 img {
-    margin-left:0;
-    width: 130px;
-    height: 148px;
-}
- .price{
+    .examples2 {
+        width: 240px;
+        height: 240px;
+    }
+  .examples3 {
+    width: 250px;
+    height: 250px;
+  }
+
+   .price{
     font-size: 14px;
- }
- .framename {
+   }
+  .framename {
     font-size: 12px;
- }
+   }
     .flower_img {
         width: 200px;
         height: 200px;
@@ -860,33 +833,21 @@ footer{
         font-size: 24px;
         padding: 20px 0 20px;
     }
+   
+
+    .examples1 {
+        width: 200px;
+        height: 200px;
+    }
     .examples2 {
         width: 170px;
         height: 200px;
     }
-    .examples2 img{
-        margin-top: 3px;
-        width: 96px;
-        height: 98px;
-        margin-left: 48px;
-    }
-    .examples1 {
-        width: 175px;
-        height: 175px;
-    }
-    .examples1 img {
-        width: 97px;
-        height: 95px;
- }
  .examples3 {
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
 }
-.examples3 img {
-    margin-left:0;
-    width: 105px;
-    height: 125px;
-}
+
  .price{
     font-size: 12px;
  }
@@ -980,32 +941,21 @@ footer{
         padding: 20px 0 20px;
     }
     .examples2 {
-        width: 190px;
-        height: 200px;
+        width: 280px;
+        height:280px;
     }
-    .examples2 img{
-        margin-top: 3px;
-        width: 103px;
-        height: 114px;
-        margin-left: 48px;
-    }
+
     .examples1 {
-        width: 175px;
-        height: 175px;
+        width: 280px;
+        height:280px;
+       
     }
-    .examples1 img {
-        width: 97px;
-        height: 95px;
-   }
+ 
   .examples3 {
-    width: 175px;
-    height: 175px;
+    width: 280px;
+        height:280px;
   }
-  .examples3 img {
-    margin-left:0;
-    width: 105px;
-    height: 125px;
-}
+
  .price{
     font-size: 12px;
   }
@@ -1065,5 +1015,19 @@ footer{
     }
     .flower_anim2{
         background-position: top 40% left 0px;
+    }
+    .examples1 {
+        width: 320px;
+        height:320px;
+       
+    }
+    .examples2 {
+        width: 320px;
+        height:320px;
+    }
+    .examples3 {
+        width: 320px;
+        height:320px;
+       
     }
 }
