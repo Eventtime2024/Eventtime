@@ -691,8 +691,9 @@ input[type='radio']:checked:after {
     }
     .section2 {
         width: 100%;
-        padding: 20px;
-   
+        padding: 0px;
+     
+    
     }
    .friends {
     font-size: 16px;
