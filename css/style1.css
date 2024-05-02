@@ -36,17 +36,20 @@ img{
 .center{
     justify-content: center;
     display: flex;
-    height: 20px;
+    padding: 100px 0;
 }
+
 .section1{
     height: 100vh;
 }
 .down{
-    width: 30px;
-    height:5vh;
+    width: 80px;
+    height:40px;
     margin-top: 0;
     display: flex;
     justify-content: center;
+    animation: down1 2s infinite linear;
+ 
 }
 body{
     overflow-x: hidden;
@@ -89,7 +92,7 @@ body{
      background-image: url("../img/back1.jpg");
      background-size: cover;
      background-position: center;
-     height: 95vh;
+     height: 100%;
 }
 .heading{
 text-align: center;
@@ -159,7 +162,7 @@ box-sizing: border-box;
     height: 100%;
     width: 0%;
     z-index: 10;
-    animation: door1 10s linear;
+    animation: door1 8s linear;
 }
 
 .door2{
@@ -170,7 +173,7 @@ box-sizing: border-box;
     bottom: 0;
     width: 0%;
     z-index: 10;
-    animation: door2 10s linear;
+    animation: door2 8s linear;
 }
 #myAudio{
 display: none;
@@ -388,6 +391,17 @@ body::-webkit-scrollbar {
     margin-top: 15px;
 }
 
+@keyframes down1 {
+   0%{
+      padding-top:20px ;
+    }
+    50%{
+        padding-top:0px ;
+    }
+    100%{
+        padding-top:20px ;
+    }
+}
 @keyframes door1 {
     from{
         left:0;
@@ -415,8 +429,7 @@ body::-webkit-scrollbar {
     to{
         opacity: 1;
     }
-  
-    
+
 }
  @media(min-width:1920px){
     .bridegroom{
