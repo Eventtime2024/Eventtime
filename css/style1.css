@@ -1,0 +1,878 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: whisper;
+    src: url("../fonts/ofont.ru_Miama Nueva.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("../fonts/insight-melody.ttf");
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+    display: none;
+}
+tr,td{
+    border: 1px solid;
+}
+             
+.fill_field{
+    color: red;
+    font-size: 12px; 
+    text-align: center;
+    display: none;
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+   
+}
+.center{
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section1{
+    height: 100vh;
+}
+.down{
+    width: 80px;
+    height:40px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    animation: down1 2s infinite linear;
+ 
+}
+body{
+    overflow-x: hidden;
+}
+.page{
+    overflow-x: hidden;
+}
+.ds_block{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bridegroom{
+    z-index: 2;
+    width:360px;
+    height:360px;
+     border-radius: 50%;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: anim1 6s  linear;
+ }
+ .flex_end{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: -150px;
+    padding: 0 40px;
+ }
+ .dsflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.couple{
+     width:100%;
+      padding: 40px 20px 40px;
+      box-sizing: border-box;
+     background-image: url("../img/back1.jpg");
+     background-size: cover;
+     background-position: center;
+     height: 100%;
+}
+.heading{
+text-align: center;
+font-size: 20px;
+padding: 20px 0 10px;
+font-family: whisper;
+font-weight: 600;
+color: #8d773e;
+text-transform:capitalize;
+margin: 0;
+box-sizing: border-box;
+}
+.names{
+    font-family: whisper;
+    letter-spacing: 2px;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+    color: #8d773e;
+    font-weight: 600;
+    margin: 0!important;
+    box-sizing: border-box;
+    
+}
+.tillwedding{
+    font-family: font2;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+    color: #8d773e;
+    margin: 0!important;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+#group{
+ display: flex;
+    width: 25%;
+    justify-content: space-between;
+   
+ }
+#group span{
+    font-size:30px;
+ 
+}
+.border {
+    border-right: 1px solid #d6c09a;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.groupname{
+    font-size: 14px!important;
+}
+.dsflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.door1{
+    position:absolute;
+    top: 0;
+   bottom: 0;
+    left:-50%;
+    height: 100%;
+    width: 0%;
+    z-index: 10;
+    animation: door1 8s linear;
+}
+
+.door2{
+    position:absolute;
+    top: 0;
+    right: -50%;
+    height: 100%;
+    bottom: 0;
+    width: 0%;
+    z-index: 10;
+    animation: door2 8s linear;
+}
+#myAudio{
+display: none;
+
+}
+#play{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border:1px solid #666;
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    cursor: pointer;
+    animation: rotate  1s infinite linear;
+}
+.section2{
+    background-image:url("../img/back1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100vw;
+    padding: 60px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.audiobox{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+}
+.text p{
+    text-align: center;
+font-size: 20px;
+line-height: 40px;
+font-family: whisper;
+font-weight: 600;
+color: #8d773e;
+text-transform:capitalize;
+margin: 0;
+}
+#date{
+    margin: 20px 0!important;
+  font-size: 25px;
+}
+.song{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: whisper;
+    font-weight: 600;
+   color: #666;
+    text-transform:capitalize;
+    width: 100%;
+    margin: 0;
+}
+.text{
+    width: 60%;
+}
+.ring{
+    width: 120px;
+    height: 120px;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 ;
+    box-sizing: border-box;
+}
+.ringtext{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #a7893c;
+    margin: 30px 0;
+}
+.address{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+   color: #666;
+    text-transform:capitalize;
+    margin: 0;
+    line-height: 28px;
+}
+.links{
+    margin: 20px 0;
+    color: #666!important;
+    text-decoration: none!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #cdb577;
+    width: 100px;
+    height: 30px; 
+    font-size: 13px;
+}
+.links:hover{
+    background-color: #cdb577;
+    color: #FFF!important;
+}
+.invitetext{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #666;
+    margin: 30px 0;
+}
+.radio-part{
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+label{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+   color: #666;
+   line-height: 15px;
+    margin: 0 ;
+    margin-left: 10px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:  #FFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #666;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #cdb577;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.guest{
+    border:none;
+    background:transparent;
+    width: 100%;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid #666;
+}
+.mr30{
+    margin:30px 0;
+}
+.send{
+    background: transparent;
+}
+input:focus{
+    outline: none;
+    background-color: #FFF;
+}
+input{
+    color: #666;
+    font-weight: 600;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  
+}
+.logo a{
+    width: 100%
+}
+
+.lastpart{
+    padding: 20px 0 50px;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #cdb577!important;
+    outline: 1px solid #cdb577!important;
+  }
+
+.site{
+    text-decoration: none!important;
+    color: #463200!important;
+    font-family: font2;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+@keyframes rotate {
+    0%{
+        border:1px solid #666 ;
+     }
+     100%{
+        border:2px solid #666 
+     }
+ }
+@keyframes down1 {
+   0%{
+      padding-top:20px ;
+    }
+    50%{
+        padding-top:0px ;
+    }
+    100%{
+        padding-top:20px ;
+    }
+}
+@keyframes door1 {
+    from{
+        left:0;
+        width: 50%;
+    }
+    to{
+     left:0%;
+     width: 0;
+    }
+}
+@keyframes door2 {
+    from{
+        right:0;
+        width: 50%;
+    }
+    to{
+    right:0%;
+    width: 0;
+    }
+}
+@keyframes anim1 {
+   from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+ @media(min-width:1920px){
+    .bridegroom{
+        width:600px;
+        height:600px;
+     }
+    .text{
+        width: 50%;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .names{
+        font-size: 70px;
+    }
+    
+ .tillwedding{
+    font-size: 50px;
+ }
+ #group span {
+    font-size: 71px;
+    
+}
+
+.text p {
+    font-size: 36px;
+    line-height: 65px;
+}
+#date {
+    
+    font-size: 40px;
+}
+.song{
+    font-size: 26px;
+    line-height: 50px;
+}
+.ringtext {
+    font-size: 40px;
+}
+.address{
+    font-size: 30px;
+    line-height: 38px;
+}
+.links {
+    width: 245px;
+    height: 60px;
+    font-size: 30px;
+}
+.invitetext{
+    font-size: 40px;
+    margin: 50px 0;
+}
+label {
+   
+    font-size: 36px;
+}
+input[type='radio']:after {
+    width: 25px;
+    height: 25px;
+    top: -15px;
+    left: -12px;
+}
+
+input[type='radio']:checked:after {
+    width: 25px;
+    height: 25px;
+    top: -15px;
+    left: -12px;
+
+}
+.guest{
+    font-size: 30px;
+}
+ 
+}
+
+@media(min-width:1660px) and (max-width:1920px){
+  .bridegroom{       
+ width:600px;
+ height:600px;
+ 
+ }
+  .text{
+  width: 50%;
+ }
+  .heading{
+ font-size: 50px;
+}
+ .names{ 
+    font-size: 70px;
+}
+.tillwedding{
+ font-size: 50px;
+ }
+ #group span {
+  font-size: 71px;
+  }
+
+ .text p {
+ font-size: 36px;
+line-height: 65px;
+ }
+ #date {
+ font-size: 40px;
+ }
+.song{
+font-size: 26px;
+line-height: 50px;
+ }
+.ringtext {
+font-size: 40px;
+}
+.address{
+ font-size: 30px;
+line-height: 38px;
+  }
+.links {
+ width: 245px;
+ height: 60px;
+ font-size: 30px;
+ }
+.invitetext{
+ font-size: 40px;
+ margin: 50px 0;
+    }
+label {   
+ font-size: 36px;
+}
+input[type='radio']:after {
+  width: 25px;
+ height: 25px;
+ top: -15px;
+  left: -12px;
+ }
+    
+ input[type='radio']:checked:after {
+  width: 25px;
+  height: 25px;
+   top: -15px;
+  left: -12px; 
+}
+.guest{
+ font-size: 30px;
+ }
+ .center{
+    padding-top: 40px;
+ }
+}
+
+@media(min-width:1440px) and (max-width:1660px){
+    .bridegroom{       
+   width:500px;
+   height:500px;
+  
+   }
+    .text{
+    width: 50%;
+   }
+    .heading{
+   font-size: 50px;
+  }
+   .names{ 
+      font-size: 70px;
+  }
+  .tillwedding{
+   font-size: 40px;
+  
+   }
+   #group span {
+    font-size: 60px;
+    }
+ 
+   .text p {
+   font-size: 30px;
+  line-height: 55px;
+   }
+   #date {
+   font-size: 35px;
+   }
+  .song{
+  font-size: 22px;
+  line-height: 45px;
+  width: 90%;
+   }
+  .ringtext {
+  font-size: 40px;
+  }
+  .address{
+   font-size: 30px;
+  line-height: 38px;
+    }
+  .links {
+   width: 245px;
+   height: 60px;
+   font-size: 30px;
+   }
+  .invitetext{
+   font-size: 40px;
+   margin: 50px 0;
+      }
+  label {   
+   font-size: 36px;
+  }
+  input[type='radio']:after {
+    width: 25px;
+   height: 25px;
+   top: -15px;
+    left: -12px;
+   }
+      
+   input[type='radio']:checked:after {
+    width: 25px;
+    height: 25px;
+     top: -15px;
+    left: -12px; 
+  }
+  .guest{
+   font-size: 30px;
+   }
+   .center{
+    padding-top: 40px;
+   }
+  }
+
+  @media(min-width:920px) and (max-width:1024px){
+    .bridegroom{       
+   width:300px;
+   height:300px;
+ }
+ .text{
+    width: 55%;
+   }
+    .heading{
+   font-size: 36px;
+  }
+   .names{ 
+      font-size: 60px;
+  }
+  .tillwedding{
+   font-size: 26px;
+
+   }
+   #group span {
+    font-size: 40px;
+    }
+    #group {
+        width: 30%;
+    }
+   .text p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+   #date {
+   font-size: 28px;
+   }
+  .song{
+  font-size: 20px;
+  line-height: 40px;
+  width: 100%;
+   }
+  .ringtext {
+  font-size: 30px;
+  }
+  .address{
+   font-size: 22px;
+  line-height: 38px;
+    }
+  .links {
+    width: 160px;
+    height: 34px;
+    font-size: 18px;
+   }
+  .invitetext{
+   font-size: 24px;
+   margin: 30px 0;
+      }
+      .center{
+        padding-top: 40px;
+      }
+  
+  }
+
+  @media(min-width:768px) and (max-width:920px){
+    .bridegroom{       
+   width:300px;
+   height:300px;
+ }
+ .text{
+    width: 68%;
+   }
+    .heading{
+   font-size: 28px;
+  }
+   .names{ 
+      font-size: 40px;
+  }
+  .tillwedding{
+   font-size: 20px;
+
+   }
+   #group span {
+    font-size: 24px;
+    }
+    #group {
+        width: 30%;
+    }
+   .text p {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+   #date {
+   font-size: 22px;
+   }
+  .song{
+  font-size: 18px;
+  line-height: 35px;
+  width: 100%;
+   }
+  .ringtext {
+  font-size: 26px;
+  margin: 20px 0;
+  }
+  .address{
+   font-size: 18px;
+  line-height: 28px;
+    }
+  .links {
+    width: 160px;
+    height: 34px;
+    font-size: 18px;
+   }
+  .invitetext{
+   font-size: 20px;
+   margin: 30px 0;
+      }
+      .center{
+        padding-top: 60px;
+      }
+
+  }
+
+  @media(min-width:320px) and (max-width:768px){
+   
+    .bridegroom{       
+   width:250px;
+   height:250px;
+ }
+ .text{
+    width: 79%;
+   }
+    .heading{
+   font-size: 18px;
+  }
+   .names{ 
+      font-size: 22px;
+  }
+  .flex_end{
+    margin-top: 0;
+    align-items: center;
+  }
+  .tillwedding{
+   font-size: 20px;
+
+   }
+   #group span {
+    font-size: 24px;
+    }
+    #group {
+        width: 300px;
+    }
+   .text p {
+    font-size: 12px;
+    line-height: 25px;
+   }
+.section2{
+    padding: 40px 0;
+
+}
+   #date {
+   font-size: 16px;
+   margin: 10px 0;
+   }
+   .audiobox{
+    width: 90%;
+   }
+  .song{
+    font-size: 12px;
+    line-height: 27px;
+  width: 100%;
+   }
+   .ring{
+    width: 100px;
+    height: 100px;
+   }
+   #play {
+    margin-bottom: 30px;
+   }
+  .ringtext {
+  font-size: 14px;
+  margin: 20px 0;
+  }
+  .address{
+    font-size: 14px;
+    line-height: 20px;
+    }
+    .p10{
+        padding: 0 0 10px;
+    }
+    .links {
+        width: 120px;
+        height: 25px;
+        font-size: 13px;
+    }
+  .invitetext{
+    font-size: 14px;
+    margin: 19px 10px;
+      }
+      label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .radio-part {
+        width: 100%;
+        padding: 0px 20px
+  
+  }
+.guest{
+    width: 90%;
+    margin: 0 20px;
+}
+}
