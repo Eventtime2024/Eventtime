@@ -31,7 +31,7 @@ button{
 .down{
     width: 30px;
     position: absolute;
-  bottom:10%;
+    bottom:20%;
     left:50%;
     height:20px;
     margin-top: 0;
@@ -309,26 +309,16 @@ input:focus{
   }
 @keyframes anim_down {
     0%{
-        bottom: 10%;
+        height: 20px;
     }
     50%{
-        bottom: 12%;
+        height: 25px;
     }
     100%{
-        bottom: 10%;
+        height: 20px;
     }
 }
-@keyframes anim_down2 {
-    0%{
-        bottom: 5%;
-    }
-    50%{
-        bottom: 8%;
-    }
-    100%{
-        bottom: 5%;
-    }
-}
+ 
 @media (min-width:1920px) {
     .down {
         width: 50px;
@@ -894,7 +884,7 @@ label{
 }
 .down {
 
-    bottom: 25%;
+    bottom: 15%;
 
  }
  .invitetext{
