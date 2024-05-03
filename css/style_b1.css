@@ -71,6 +71,7 @@ body{
     height: 100vh;
     padding-top: 150px;
     box-sizing: border-box;
+    position: relative;
 }
 .content1{
     position: relative;
@@ -86,6 +87,7 @@ body{
     background-repeat: no-repeat;
     background-size:  cover;
     border-radius: 50%;
+    margin-left: 50px;
     
 }
  
@@ -593,7 +595,7 @@ label{
         height: 400px;
     }
     .w60 {
-        width: 70%;
+        width: 90%;
     }
     .frends {
         font-size: 40px;
@@ -655,7 +657,7 @@ label{
         height: 370px;
     }
     .w60 {
-        width: 70%;
+        width: 90%;
         padding:60px;
     }
     .frends {
@@ -715,6 +717,13 @@ label{
 
 
 @media(min-width:768px) and (max-width:920px){
+    .wh100{
+        flex-direction: column;
+        padding-top: 0;
+        align-items: center;
+        justify-content: center;
+        
+    }
     .girl_img{
         padding: 0 50px;
         justify-content: space-between;
@@ -735,9 +744,11 @@ label{
     .girl_img_box {
         width:300px;
         height: 300px;
+        margin-left: 0;
+        margin-top: 50px;
     }
     .w60 {
-        width: 70%;
+        width: 90%;
         padding:40px;
     }
     .frends {
@@ -794,6 +805,11 @@ label{
 .guest{
    font-size: 14px;
 }
+.down {
+ 
+    bottom: 15%;
+   
+ }
 }
 
 @media(min-width:320px) and (max-width:768px){
@@ -827,9 +843,11 @@ label{
     .girl_img_box {
         width:200px;
         height: 200px;
+        margin-left: 0;
+        margin-top: 50px;
     }
     .w60 {
-        width: 90%;
+        width: 100%;
         padding:20px;
     }
     .frends {
@@ -872,10 +890,9 @@ label{
     font-size: 16px;
 }
 .down {
-    width: 15px;
-    height: 15px;
-    bottom: 5%;
-    animation: anim_down2 2s infinite linear;
+
+    bottom: 15%;
+
  }
  .invitetext{
     color: #fff;
