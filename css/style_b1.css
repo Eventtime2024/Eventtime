@@ -70,6 +70,12 @@ body{
     padding: 75px 0 75px;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calendarr_girl{
+    display: flex;  
 }
 .content1{
     position: relative;
@@ -706,12 +712,14 @@ label{
 
 @media(min-width:768px) and (max-width:920px){
     .wh100{
-        flex-direction: column;
         padding-bottom: 50px;
-        align-items: center;
         padding-top: 0;
-        justify-content: flex-start;
-        
+        justify-content: flex-start;  
+    }
+    .calendarr_girl{
+   flex-direction: column;
+   align-items: center;
+   padding-top: 40px;
     }
     .girl_img{
         padding: 0 50px;
@@ -800,18 +808,14 @@ label{
 
 @media(min-width:320px) and (max-width:768px){
     .wh100{
-        flex-direction: column;
-        padding-bottom:50px;
-        align-items: center;
-        justify-content: flex-start;
+        padding-bottom: 50px;
         padding-top: 0;
-        
+        justify-content: flex-start;  
     }
-    .girl_img{
-        padding: 40px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
+    .calendarr_girl{
+   flex-direction: column;
+   align-items: center;
+   padding-top: 40px;
     }
     .calendar{
         width: 240px;
