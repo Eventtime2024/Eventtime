@@ -721,7 +721,7 @@ label{
         flex-direction: column;
         padding-top: 0;
         align-items: center;
-        justify-content: center;
+       justify-content: flex-start;
         
     }
     .girl_img{
@@ -817,7 +817,7 @@ label{
         flex-direction: column;
         padding-top: 0;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         
     }
     .girl_img{
