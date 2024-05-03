@@ -937,8 +937,10 @@ font-size: 16px;
   
     @media(min-width:320px) and (max-width:768px){
      .section1{
-    
     background-position:top 0px left 45%;
+     }
+      .section1_part1{
+        padding-bottom: 150px;
      }
    .lasttext{  
       font-size: 16px;
