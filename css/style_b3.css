@@ -14,770 +14,1051 @@
     font-family: font3;
     src:url("../fonts/1926-font.otf")
 }
-@font-face {
-    font-family: font4;
-    src: url("../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
-}
 img{
     width: 100%;
     vertical-align: middle;
     height: 100%;
    
 }
-button{
-    border: none;
+body{
+    overflow-x: hidden;
+}
+#myAudio{
+    display: none;
+}
+.ds_block{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.music{
+    width: 30px;    
+    height: 30px;
+    background-image: url("../img/musicicon.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:30px;
+    right:20px;
+    cursor: pointer;
+    z-index: 63;
+    filter: grayscale(75%);
+
 }
 .page{
-    background-image:  url("../img/brthbg.jpg");
-    background-position:center;
+    background-image: url("../img/img41.jpg");
     background-repeat: no-repeat;
-    background-size:  cover;
-    background-attachment: fixed ;
-    width: 100%;
-    padding:  0 20px;
-    box-sizing: border-box;
+    background-size: cover;
+    background-position:top -150px left 0;
+    background-attachment: fixed;
+   width: 100%;
+     
 }
 .section1{
-    height: 100vh;
-    padding: 20px 0px;
+    width: 100%;
+    position: relative;
+    display: flex;
+   
+    
+}
+.section1_part1{
+width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-end;
+ padding-bottom: 60px;
+ box-sizing: border-box;
+  height:100vh;
+}
+.name{
+font-family: font3;
+text-align: center;
+font-size: 60px;
+margin-bottom: 0;
+color: #ebd8d8;
+}
+.tillwedding{
+    font-family: font2;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: 0!important;
+    justify-content: space-between;
     box-sizing: border-box;
+}
+.bgblack{
+    background-color: rgb(0, 0, 0,0.75);
+    height: 100%;
+    z-index: 33;
+    padding: 30px 80px;
+    box-sizing: border-box;
+}
+#group{
+    display: flex;
+   width: 80%;
+  justify-content: space-between;
+ }
+  #group span{
+    font-size:30px;
+    color: #fff;
+    font-weight: 600;
+}
+.dsflex{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.wedding_img1{
+    width: 300px;
+    height: 400px;
+}
+.down{
+    width: 30px;
+    position: absolute;
+    bottom:10%;
+    left:50%;
+    height:30px;
+    margin-top: 0;
+    animation: anim_down 2s infinite linear;
+}
+.section2{
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ 
+}
+.section2_text p{
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 600;
+    font-family: whisper;
+    text-align: justify;
+    color: #fff;
+}
+.section2_text {
+    width: 60%;
+}
+.wedding_img2{
+    width: 150px;
+    height: 180px;
+  margin-top: -150px;
+  margin-left: 230px;
+ 
+}
+.dsflex_spacebtw{
+    display: flex;
+    justify-content: space-between;
+}
+.section3{
+    padding: 100px 80px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.date{
+    font-size: 32px;
+    line-height: 2;
+    font-weight: 600;
+    font-family: whisper;
+    text-align: justify;
+    color: #fff;
+    text-align: center;
+}
+
+.dsflex_jscenter{
+    display: flex;
+    justify-content: center;
+}
+.plan{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.brth_girl{
-    width: 400px;
-    height: 400px;
-    background-image:  url("../img/b3.jpg");
-    background-position:top -150px center;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-size:  cover;
-    transition-duration:1s ;
-
+.dsflex_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.img2{
-    display: none;
-}
-.img3{
-    display: none;
-}
-.happy{
-    font-family: font2;
-    font-size: 38px;
-    letter-spacing: 3px;
-    color: #fff;
+.timing{
+    font-size: 20px;
+    line-height: 2;
     font-weight: 500;
-    background-color: rgb(0, 0, 0,0.40);
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0 0 10px;
+    font-family:font2;
+    text-align: justify;
+    color: #fff;
 }
-
-.party span{
-   margin-left: 40px;
-
+.ring_icon{
+    width: 80px;
+    height: 80px;
 }
-.ps_rel{
-    position: relative;
-    width: 100%;
-    height: 50px;
-}
-.ps_abs{
-    position: absolute;
-    background-image:  url("../img/chevron-down-50.png");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:  cover;
-    width: 30px;
-    height: 20px;
-    top:50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    animation:anim_down 1s infinite linear;
-    
-}
-.section2{
-    width: 100%;
-    background-color: rgb(0, 0, 0,0.40);
-    padding: 40px 0;
-    box-sizing: border-box;
-
-}
-.date{
-    font-size: 36px;
-font-weight: 600;
-text-align: center;
-margin-bottom: 40px!important;
-font-family: whisper;
-color: #fff;
-}
-.text1{
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
+.links{
+    text-decoration: none!important;
     color: #fff!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #fff;
+    width: 100px;
+    height: 30px; 
+    font-size: 13px;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+.links:hover{
+    background-color: #fff;
+    color:#000!important;
+}
+.address{
+    font-size: 16px;
+    margin:0;
+    color: #fff;
+    font-style: italic;
+}
+.zags{
+    width: 400px;
+    height: 300px;
+    margin: 30px 0 0;
+    filter: grayscale(95%);
+}
+.photo_icon{
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+}
+.champ_icon{
+    width: 200px;
+    height: 150px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.logo a{
+    width: 100%
+}
+
+.invitetext{
     text-align: center;
-    }
-    .cafe{
-        font-size: 36px;
+    font-size: 20px;
+    font-weight: 800;
+    color:#fff;
+    margin: 30px 0;
+}
+.radio-part{
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+label{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+   color: #fff;
+   line-height: 15px;
+    margin: 0 ;
+    margin-left: 10px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:  #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #fff;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #545252;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #fff;
+}
+.guest{
+    border:none;
+    background:transparent;
+    width: 100%;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid #545252;
+}
+.mr30{
+    margin:30px 0;
+}
+.send{
+    background: transparent;
+}
+input:focus{
+    outline: none;
+    background-color: #FFF;
+}
+input{
+ 
+    font-weight: 600;
+}
+::-webkit-input-placeholder {  
+    color: #fff!important;
+    font-weight: 400;
+  }
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #ccc!important;
+    outline: 1px solid #ccc!important;
+  }
+  .lastpart{
+padding: 30px 100px;
+     
+  }
+  .lasttext{ 
+     font-size: 26px;
+  margin:0;
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+  margin:40px 0 20px;
+    color: #fff;
+  }
+  .names{
+    font-size: 34px;
+    font-family: whisper;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 40px!important;
-    font-family: whisper;
-    color:#fff;
-    }
-    .address{
-        font-size: 28px;
-        font-weight: 400;
-        text-align: center;
-        color:#fff;
-        font-style: italic;
-    }
-    .address2{
-        font-size: 22px;
-        font-weight: 400;
-        text-align: center;
-        color:#fff;
-        font-style: italic;
-    }
-    .address_link{
-        display: flex;
-        text-decoration: none!important;
-        color: #fff!important;
-        font-weight: 600 ;
-        width: 150px;
-        height: 40px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        background-color:rgb(0,0,0,0.45);  
-    
-    }
-    .address_link:hover{
-        background: #fff;
-        color: #000!important;
-    }
-
-    .withlove{
-        font-size: 22px;
-        font-weight: 400;
-        text-align: center;
-        font-family: whisper;
-        color:#fff;
-        margin:40px 0 20px!important;
-    }
-    .time{ 
-        font-size: 30px;
-        font-weight: 500;
-        text-align: center;
-        margin-bottom: 20px!important;
-        font-family: whisper;
-        color: #fff;
-    }
-    .center{
-        display: flex;
-        justify-content: center;
-     }
-     .name{
-        font-size: 40px;
-        font-weight: 600;
-        text-align: center;
-        margin-bottom: 40px!important;
-        font-family: whisper;
-        color:#fff;
-        margin: 0;
-        }
-        footer{
-            display: flex;
-            justify-content: center;
-            padding-top: 20px;
-            box-sizing: border-box;
-            flex-direction: column;
-            align-items: center;
-        }
-        .logo {
-            width: 80px;
-            height: 80px;
-            display: block;
-            background-image: url("../img/icon.svg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-          cursor: pointer;
-        }
-        .logo a{
-            width: 100%
-        }
-        .site{
-            text-decoration: none!important;
-            color: #fff!important;
-            font-family: font2;
-            font-size: 20px;
-            display: inline-block;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            font-weight: 600;
-        }
-   
-        .ds_block{
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-        .lastpart{
-            padding: 50px;
-        }
-        .invitetext{
-            color: #fff;
-            font-size: 20px;
-            text-align: center;
-        }
-        label{
-            color: #fff;
-            font-size: 20px;
-            margin-left: 20px;
-        }
-        input[type='radio']:after {
-            width: 15px;
-            height: 15px;
-            border-radius: 15px;
-            top: -2px;
-            left: -1px;
-            position: relative;
-            background-color:  #fff;
-            content: '';
-            display: inline-block;
-            visibility: visible;
-            border: 2px solid #000;
-        }
-        
-        input[type='radio']:checked:after {
-            width: 15px;
-            height: 15px;
-            border-radius: 15px;
-            top: -2px;
-            left: -1px;
-            position: relative;
-            background-color: #000;
-            content: '';
-            display: inline-block;
-            visibility: visible;
-            border: 2px solid #fff;
-        }
-        .radio-part{
-        margin-bottom: 50px;
-        }
-        .guest{
-            border:none;
-            background:transparent;
-            width: 100%;
-            padding: 20px ;
-            box-sizing: border-box;
-            border-bottom: 1px solid #545252;
-        }
-        input:focus{
-            outline: none;
-            background-color: #FFF;
-        }
-        
-        ::-webkit-input-placeholder {  
-            color: #fff!important;
-            font-weight: 400;
-          }
-          .dsflex{
-            width: 100%;
-            justify-content: center;
-            display: flex;
-          }     
+    color: #fff;
+  }
+  .site{
+    text-decoration: none!important;
+    color: #fff!important;
+    font-family: font2;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
 @keyframes anim_down {
     0%{
-        top:50%
+        bottom: 10%;
     }
     50%{
-        top: 65%;
+        bottom: 12%;
     }
     100%{
-        top:50%
+        bottom: 10%;
     }
 }
- @media(min-width:1920px){
-    .page {
-        padding: 0px 60px
+@keyframes anim_down2 {
+    0%{
+        bottom: 5%;
     }
-    .brth_girl {
-        width: 800px;
-        height: 800px;
+    50%{
+        bottom: 8%;
     }
-    .happy{
-        margin-bottom: 20px;
-        font-size: 50px;
+    100%{
+        bottom: 5%;
+    }
+}
+
+@media(min-width:1920px){
+    .lasttext{  font-size: 46px;
+        margin:0;
+        color: #fff;
+        font-style: italic;
+        text-align: center;
+        margin:40px 0 20px;
+          color: #fff;
+        }
+        .names{
+          font-size: 64px;
+
+        }
+    .section1{
+        background-size: 100%;
+      
+    }
+    .wedding_img1 {
+        width: 600px;
+        height: 700px;
+    }
+    .wedding_img2{
+        width: 418px;
+        height: 550px;
+        margin-top: -132px;
+        margin-left: 309px;
+    }
+    .section2_text p {
+        font-size: 40px;
+        margin-left: 50px;
     }
     .date {
         font-size: 60px;
- }
-    .text1 {
-    font-size: 40px;
-  }
-    .time {
-    font-size: 50px;
-   }
-   .cafe {
-    font-size: 48px;
-   }
-   .address {
-    font-size: 36px;
-   }
-   
-.address2 {
-    font-size: 30px;
-}
-.address_link {
-   font-size: 24px;
-    width: 200px;
-    height: 60px;
-}
-.withlove {
-    font-size: 33px;
-}
-.name {
-    font-size: 56px;
- }
- .logo {
-    width: 100px;
-    height: 100px;
- }
- .site {
-    font-size: 28px;
- }
- .lastpart{
-    padding: 50px 0;
-}
-.invitetext{
-    color: #fff;
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-label{
-    color: #fff;
-    font-size: 28px;
-    margin-left: 20px;
-}
-.mr40{
-    margin-bottom: 40px;
-}
-.guest{
-   font-size: 26px;
-}
-
-}
-
-@media(min-width:1660px) and (max-width:1920px){
-    .page {
-        padding: 0px 60px
     }
-    .brth_girl {
-        width: 700px;
-        height: 700px;
+    #group span {
+        font-size: 80px;
     }
-    .happy{
-        margin-bottom: 20px;
-        font-size: 45px;
+    #group {
+      margin-top: 60px;
     }
-    .date {
-        font-size: 50px;
- }
-    .text1 {
-    font-size: 38px;
-  }
-    .time {
-    font-size: 40px;
-   }
-   .cafe {
-    font-size: 40px;
-   }
-   .address {
-    font-size: 32px;
-   }
-   
-.address2 {
-    font-size: 28px;
-}
-.address_link {
-   font-size: 24px;
-    width: 200px;
-    height: 60px;
-}
-.withlove {
-    font-size: 33px;
-}
-.name {
-    font-size: 56px;
- }
- .logo {
-    width: 100px;
-    height: 100px;
- }
- .site {
-    font-size: 28px;
- }
- .invitetext{
-    color: #fff;
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-label{
-    color: #fff;
-    font-size: 28px;
-    margin-left: 20px;
-}
-.mr40{
-    margin-bottom: 40px;
-}
-.guest{
-   font-size: 26px;
-}
-
-}
-@media(min-width:1440px) and (max-width:1660px){
-    .page {
-        padding: 0px 60px
-    }
-    .brth_girl {
-        width: 600px;
-        height: 600px;
-    }
-    .happy{
-        margin-bottom: 20px;
-        font-size: 40px;
-    }
-    .date {
-        font-size: 45px;
-    }
-    .text1 {
-    font-size: 30px;
-    }
-    .time {
-    font-size: 40px;
-   }
-   .cafe {
-    font-size: 40px;
-   }
-   .address {
-    font-size: 34px;
-   }
-.address2 {
-    font-size: 30px;
-}
-.address_link {
-   font-size: 22px;
-    width: 200px;
-    height: 60px;
-}
-.withlove {
-    font-size: 33px;
-}
-.name {
-    font-size: 50px;
- }
- .logo {
-    width: 100px;
-    height: 100px;
- }
- .site {
-    font-size: 28px;
- }
- .invitetext{
-    color: #fff;
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-label{
-    color: #fff;
-    font-size: 24px;
-    margin-left: 20px;
-}
-.mr40{
-    margin-bottom: 40px;
-}
-.guest{
-   font-size: 22px;
-}
-}
-
-@media(min-width:1024px) and (max-width:1144px){
-    .brth_girl {
-        width: 60vh;
-        height: 65vh;
-    }
-    .happy{
-        margin-bottom: 20px;
-        font-size: 40px;
-        height: 20vh;
-    }
-}
-@media(min-width:920px) and (max-width:1024px){
-    .brth_girl {
-        width: 60vh;
-        height: 65vh;
-    }
-    .happy{
-        margin-bottom: 20px;
-        font-size: 30px;
-        height: 20vh;
-    }
-    .date {
-        font-size: 28px;
-    }
-    .time{
-        font-size: 25px;
-        margin:20px 0;
-    }
-    .text1{
-        font-size: 21px;   
-        margin:20px 0 50px;
-
-    }
-    .cafe{
-        font-size: 30px;
-        margin: 0 0 20px!important;
-    }
-
-    .address{
-        font-size: 24px;
-        margin: 10px 0;
-    }
-    .address2 {
-        font-size: 20px;
-        margin: 10px 0;
-    }
-    .withlove{
-        margin: 30px 0 10px !important;
-    }
-    .name{
-        margin-bottom: 30px !important;
-        font-size: 36px;
-    }
-    .logo {
-        width: 70px;
-        height: 70px;
-}
-.site{
-    font-size: 16px;
-}
-.brth_girl{
-
-    background-position:top -110px center;
-}
-.invitetext{
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-label{
-    color: #fff;
-    font-size: 16px;
-    margin-left: 20px;
-}
-.mr40{
-    margin-bottom: 40px;
-}
-.guest{
-   font-size:16px;
-}
-}
-
-@media(min-width:768px) and (max-width:920px){
-    .brth_girl {
-        width: 65vh;
-        height: 65vh;
-    }
-    .happy{
-        margin-bottom: 20px;
-        font-size:30px;
-        height: 15vh;
-    }
-    .ps_abs {
-        width: 20px;
-        height: 10px;
-    }
-    .date {
-        font-size: 26px;
-        margin-bottom: 30px!important;
-    }
-    .time{
-        font-size: 25px;
-        margin:20px 0;
-    }
-    .text1{
-        font-size: 18px;
-        margin: 15px 0 30px
-
-    }
-    .cafe{
-        font-size: 24px;
-        margin: 0 0 10px!important;
-    }
-
-    .address{
-        font-size: 22px;
-        margin: 10px 0;
-    }
-    .address2 {
-        font-size: 18px;
-        margin:  0 0 10px;
-    }
-    .address_link{
-        margin-top: 15px;
-        font-size: 14px;
-    }
-    .withlove{
-        margin: 30px 0 10px !important;
-        font-size: 22px;
-    }
-    .name{
-        margin-bottom: 30px !important;
-        font-size: 32px;
-    }
-    .logo {
-        width: 70px;
-        height: 70px;
-}
-.site{
-    font-size: 16px;
-}
-.brth_girl{
-    background-position:top -230px center;
-}
-.invitetext{
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-label{
-    color: #fff;
-    font-size: 16px;
-    margin-left: 20px;
-}
-.mr40{
-    margin-bottom: 40px;
-}
-.guest{
-   font-size: 14px;
-}
-}
-
-
-@media(min-width:320px) and (max-width:768px){
-    .section1 {
-        padding: 0;
-    }
-    .section2 {
-        padding:  20px;
+     
+    .tillwedding {
+        font-size: 80px;
        
     }
+ 
+    .timing {
+        font-size: 45px;
+    }
+    .ring_icon {
+        width: 150px;
+        height: 150px;
+    }
+    .address {
+        font-size: 40px;
+    }
+    .zags {
+        width: 850px;
+        height: 700px;
+    }
+    .links {
+        width: 300px;
+        height: 100px;
+        font-size: 36px;
+    }
+    .photo_icon {
+        width: 150px;
+        height: 150px;
+        margin-top: 60px;
+    }
+    .champ_icon {
+        width: 500px;
+        height: 300px;
+    }
+    .invitetext {
+        font-size: 36px;
+        margin-bottom: 100px;    
+    }
+    label {
+     
+        font-size: 34px;
+    }
+    .guest {
+        font-size: 36px;   
+         padding: 45px 20px;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;            
+    }
+    .lastpart{
+        padding: 30px 300px;
+             
+          }
+}
+
+
+@media(min-width:1660px) and (max-width:1920px){
+    .lasttext{  
+        font-size: 36px;
+        }
+        .names{
+          font-size: 44px;
+        }
+    .section1{
+        background-position: top -150px left 0;
+      
+    }
     
-    .page{
-        padding: 0;
+    .wedding_img1 {
+        width: 500px;
+        height: 600px;
     }
-    .brth_girl {
-        width:320px;
-        height: 330px;
-        
+    .wedding_img2{
+        width: 380px;
+        height: 460px;
+        margin-top: -132px;
+        margin-left: 309px;
     }
-    .happy{
-        margin-bottom: 20px;
-        font-size:30px;
-        height: 15vh;
-    }
-    .ps_abs {
-        width: 20px;
-        height: 10px;
+    .section2_text p {
+        font-size: 36px;
+        margin-left: 50px;
     }
     .date {
+        font-size: 40px;
+    }
+    #group span {
+        font-size: 45px;
+    }
+    .tillwedding {
+        font-size: 50px;
+    }
+
+    .timing {
+        font-size: 45px;
+    }
+    .ring_icon {
+        width: 120px;
+        height: 120px;
+    }
+    .address {
+        font-size: 40px;
+    }
+    .zags {
+        width: 830px;
+        height: 640px;
+    }
+    .links {
+        width: 260px;
+        height: 70px;
+        font-size: 28px;
+    }
+    .photo_icon {
+        width: 150px;
+        height: 150px;
+        margin-top: 60px;
+    }
+    .champ_icon {
+        width: 500px;
+        height: 300px;
+    }
+    .invitetext {
+        font-size: 36px;
+        margin-bottom: 100px;    
+    }
+    label {
+        font-size: 28px;
+    }
+ 
+    .guest {
+        font-size: 26px;
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;            
+    }
+    .lastpart{
+        padding: 30px 300px;
+    }
+}
+
+@media(min-width:1440px) and (max-width:1660px){
+    .section1{
+        background-position:top -140px left 0;
+      
+    }
+    .wedding_img1 {
+        width: 500px;
+        height: 600px;
+    }
+    .wedding_img2{
+        width: 280px;
+        height: 340px;
+        margin-top: -132px;
+        margin-left: 309px;
+    }
+    .section2_text p {
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    .date {
+        font-size: 40px;
+    }
+    #group span {
+        font-size: 38px;
+    }
+    .tillwedding {
+        font-size: 50px;
+    }
+
+    .timing {
+        font-size: 34px;
+    }
+    .ring_icon {
+        width: 100px;
+        height: 100px;
+    }
+    .address {
+        font-size: 32px;
+    }
+    .zags {
+        width: 600px;
+        height: 400px;
+    }
+    .links {
+        width: 240px;
+        height: 57px;
+        font-size: 28px;
+    }
+    .photo_icon {
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+    }
+    .champ_icon {
+        width:300px;
+        height: 230px;
+    }
+    .invitetext {
+        font-size: 36px;
+        margin-bottom: 100px;    
+    }
+    label {
         font-size: 24px;
-        margin-bottom: 18px !important;
-    }
-    .time{
-        font-size: 18px;
-        margin: 10px 0;
-    }
-    .text1{
-        font-size: 17px;
-        margin: 15px 0 30px;
-        text-align: justify;
-
-    }
-    .cafe{
-        font-size: 18px;
-        margin: 0 0 10px!important;
     }
 
-    .address{
-        font-size: 20px;
-        margin: 10px 0;
+    .guest {
+        font-size: 26px;
+        padding: 30px 20px;
     }
-    .address2 {
-        font-size: 16px;
-        margin:  0 0 10px;
+    .logo{
+        width: 150px;
+        height: 150px;            
     }
-    .address_link{
-        margin-top: 15px;
-        width: 130px;
-        font-size: 13px;
+    .lastpart{
+        padding: 30px 150px;
     }
-    .withlove{
-        margin: 30px 0 10px !important;
-        font-size: 20px;
+}
+
+
+@media(min-width:1024px) and (max-width:1144px){
+    .section1{
+        background-position:top -100px left 0;
+      
     }
-    .name{
-        margin-bottom: 30px !important;
-        font-size: 30px;
-    }
-    .logo {
-        width: 60px;
-        height: 60px;
-}
-.site{
-    font-size: 14px;
-}
-.brth_girl{
-    background-position: top -100px center;
-}
-.invitetext{
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-label{
-    color: #fff;
-    font-size: 14px;
-    margin-left:10px;
-}
-.mr40{
-    margin-bottom: 40px;
-}
-.guest{
-   font-size:14px;
-}
-.lastpart{
-    padding: 50px 0px;
-}
-}
-@media(min-width:390px) and (max-width:768px){
-    .brth_girl {
-        width: 385px;
+    .wedding_img1 {
+        width: 380px;
         height: 480px;
     }
-    .brth_girl{
-    background-position:top -75px center;
+    .wedding_img2{
+        width: 250px;
+        height: 300px;
+        margin-top: -143px;
+        margin-left: 250px;
+    }
+    .section2_text p {
+        font-size: 23px;
+        margin-left: 30px;
+    }
+    .date {
+        font-size: 30px;
+    }
+    #group span {
+        font-size: 26px;
+    }
+    .tillwedding {
+        font-size: 30px;
+    }
+
+
+    .timing {
+        font-size: 28px;
+    }
+    .ring_icon {
+        width: 70px;
+        height: 70px;
+    }
+    .address {
+        font-size: 24px;
+    }
+    .zags {
+        width: 450px;
+        height: 320px;
+    }
+    .links {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .photo_icon {
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;
+    }
+    .champ_icon {
+        width: 255px;
+        height: 200px;
+    }
+    .invitetext {
+        font-size: 24px;
+        margin-bottom: 80px; 
+    }
+    label {
+        font-size: 24px;
+    }
+
+    .guest {
+        font-size: 22px;
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;            
+    }
+    .lastpart{
+        padding: 30px 90px;
+    }
+    }
+
+    @media(min-width:920px) and (max-width:1024px){
+.lasttext{  
+   font-size: 22px;
+  }
+  .names{
+   font-size: 28px;
+ }       
+ 
+ .wedding_img1 {
+    width: 250px;
+     height: 330px;
+ }
+  .wedding_img2{
+    width: 180px;
+    height: 200px;
+     margin-top: -130px;
+      margin-left: 203px;
+  }
+  .section2_text p {
+ font-size: 22px;
+  margin-left: 30px;
+  }
+  .date {
+font-size: 28px;
+ }
+  #group span {
+    font-size: 22px;
+ }
+  .tillwedding {
+font-size: 26px;
 }
+
+.timing {
+  font-size: 24px;
+ }
+  .ring_icon {
+  width: 70px;
+   height: 70px;
+}
+  .address {
+font-size: 22px;
+ padding: 0 30px;
+  text-align: center;
+ }
+  .zags {
+  width: 330px;
+  height: 230px;
+  }
+  .links {
+ width: 150px;
+ height: 35px;
+font-size: 16px;
+}
+ .photo_icon {
+  width: 70px;
+  height: 70px;
+ margin-top: 30px;
+  }
+  .champ_icon {
+  width: 255px;
+  height: 170px;
+   }
+.section3 {
+  padding: 60px 80px;
+}
+.invitetext {
+ font-size: 24px;
+    margin-bottom: 80px; 
+   font-weight: 600;   
+     }
+  label {
+   font-size: 20px;
+ }
+    
+ .guest {
+     font-size: 22px;
+     padding: 30px 20px;
+    font-weight: 500;
+ }
+  .logo{
+    width: 80px;
+   height: 80px;           
+    }
+  .lastpart{
+   padding: 30px 90px;
+ }
+
+  }
+
+  @media(min-width:768px) and (max-width:920px){
+    .page{
+        background-position: top center;
+    }
+    .lasttext{  
+        font-size: 16px;
+        margin-bottom: 15px;
+        }
+        .names{
+          font-size: 24px;
+        }
+ 
+    .bgblack{
+        padding: 30px 60px;
+    }
+   .wedding_img1 {
+    width: 200px;
+    height: 270px;
+   }
+    .wedding_img2{
+        width: 150px;
+        height: 165px;
+        margin-top: -131px;
+        margin-left: 178px;
+    }
+    .section2_text p {
+   font-size: 17px;
+    margin-left: 30px;
+    }
+    .date {
+  font-size: 24px;
+   }
+    #group span {
+      font-size: 18px;
+   }
+    .tillwedding {
+  font-size: 22px;
+  }
+  
+  .timing {
+    font-size: 18px;
+   }
+    .ring_icon {
+    width: 60px;
+     height: 60px;
+  }
+    .address {
+  font-size: 16px;
+   padding: 0 30px;
+    text-align: center;
+   }
+    .zags {
+    width: 300px;
+    height: 200px;
+    }
+    .links {
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
+  }
+   .photo_icon {
+    width: 60px;
+    height: 60px;
+   margin-top: 30px;
+    }
+    .champ_icon {
+    width: 255px;
+    height: 130px;
+     }
+  .section3 {
+    padding: 60px 80px;
+  }
+  .invitetext {
+   font-size: 22px;
+      margin-bottom: 60px; 
+     font-weight: 500;   
+  }
+  .radio-part{
+    padding: 0;
+  }
+    label {
+     font-size: 18px;
+   }
+  .mr30{
+    margin-bottom: 0;
+  }
+   .guest {
+       font-size: 16px;
+       padding: 30px 20px;
+      font-weight: 500;
+   }
+    .logo{
+      width: 80px;
+     height: 80px;           
+      }
+    .lastpart{
+     padding: 30px 60px;
+   }
+    }
+  
+    @media(min-width:320px) and (max-width:768px){
+        /* .section1_part1{
+            width: 100%;
+           height: 700px;
+        } */
+   .lasttext{  
+      font-size: 16px;
+    margin-bottom: 10px;
+   }
+    .names{
+   font-size: 22px;
+   margin: 0;
+    }
+  .page {
+      background-position: top 0px center;
+ }
+  .bgblack{
+  padding: 30px 40px;
+ }
+  #group {
+  width: 90%;
+  }
+    .wedding_img1 {
+  width: 220px;
+  height: 270px;
+ }
+ .wedding_img2{
+width: 120px;
+height: 140px;
+ margin-top:-30px;
+ margin-left: 50px;
+}
+ .dsflex_spacebtw{
+ flex-direction: column;
+ align-items: center;
+}
+ .section2_text p {
+ font-size: 16px;
+  margin-left: 0px;
+  }
+  .section2_text {
+ width: 100%;
+}
+  .date {
+     font-size: 20px;
+    margin-top: 30px;
+}
+ #group span {
+  font-size: 18px;
+}
+ .tillwedding {
+ font-size: 22px;
+ }
+
+ .timing {
+ font-size: 16px;
+text-align: center;
+margin-bottom: 0;
+ }
+  .ring_icon {
+ width: 50px;
+ height:50px;
+ }
+.address {
+ font-size: 16px;
+padding: 0 30px;
+ text-align: center;
+ }
+ .zags {
+  width: 260px;
+  height: 190px;
+  }
+.links {
+ width: 130px;
+ height: 26px;
+  font-size: 12px;
+}
+  .photo_icon {
+ width: 50px;
+  height: 50px;
+ margin-top: 30px;
+ }
+    .champ_icon {
+   width: 255px;
+ height: 115px;
+   }
+  .section3 {
+   padding: 60px 80px;
+ }
+    .invitetext {
+ font-size: 18px;
+ margin-bottom: 40px; 
+ font-weight: 500;   
+ }
+ .radio-part{
+   padding: 0;
+  justify-content: center;
+   }
+ label {
+ font-size: 12px;
+        
+ }
+ .mr30{
+  margin-bottom: 0;
+ }
+ .mr40 {
+  margin-right: 60px;
+  margin-bottom: 10px;
+ }
+  .guest {
+  font-size: 14px;
+ padding: 15px 20px;
+  font-weight: 500;
+ }
+ .logo{
+   width: 60px;
+   height: 60px; 
+   border-color: 1px solid black;          
+    }
+   .lastpart{
+     padding: 0;
+     }
+     .radio-part{
+    flex-direction: column;
+    }
+
+    .section1_part1{
+     padding-bottom: 160px;
+    }
+}         
+
+@media(max-width:450px){
+    .bgblack{
+        padding: 30px 20px;
+    }
+    .radio-part{
+        justify-content: space-between;
+    }
+    .mr40{
+        margin-right: 0;
+    }
 }
