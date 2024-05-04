@@ -80,9 +80,9 @@ body{
     font-weight: 500;
     margin: 0;
     opacity: 0;
-    animation: anim1 0.5s linear;
+    animation: anim1 1s linear;
     animation-fill-mode: forwards ;
- 
+    animation-delay: 1s;
     
 }
 .invitation{
@@ -104,13 +104,13 @@ body{
     animation: anim1 2s linear;
     animation-fill-mode: forwards ;
     opacity: 0;
-    animation-delay: 1s;
+    animation-delay: 2s;
   
 }
 .inv2{
 top:50%;
 animation: anim1 2s linear;
-animation-delay: 2s;
+animation-delay: 3s;
 animation-fill-mode: forwards ;
 opacity: 0;
 }
