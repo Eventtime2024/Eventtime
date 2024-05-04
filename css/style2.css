@@ -24,7 +24,6 @@ img{
 }
 .down{
     width: 30px;
-    margin-top: 20px!important;
     height:40px;
     padding-bottom: 10px;
     box-sizing: border-box;
@@ -767,6 +766,7 @@ padding: 30px 100px;
     
    .wedding_date {
      font-size: 38px;
+     white-space: nowrap;
   }
   .wedding_couple {
     font-size: 52px;
@@ -916,7 +916,7 @@ footer {
         top: 54%;
     }
     .videobox{
-        height: 90vh;
+        height: 80vh;
     }
     .center {
         height: 10vh;
