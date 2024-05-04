@@ -433,6 +433,7 @@ padding: 30px 100px;
     font-weight: 600;
     text-align: center;
     color: #281a1a;
+     white-space: nowrap;
   }
 @keyframes anim1 {
     0%{
