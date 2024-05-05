@@ -301,6 +301,20 @@ input{
 .down{
     width:  50px;
     height: 20px;
+    position: relative;
+    top: 0;     
+    animation: down 1s infinite linear;
+}
+@keyframes down {
+    0%{
+        top:0;
+    }
+    50%{
+        top:10px;
+    }
+    100%{
+        top:0;
+    }
 }
 @media(min-width:1920px){
     .boygirl{
@@ -516,12 +530,6 @@ input{
         width: 30vh;
         height: 30vh;
     }
-    .down{
-        width:  40px;
-        height: 20px;
-        margin-top: 20px;
-    }
-   
     .textpart {
         width:600px;
         background-size: 100px;
@@ -595,11 +603,7 @@ input{
         width: 25vh;
         height: 25vh;
     }
-    .down{
-        width:  40px;
-        height: 20px;
-        margin-top: 20px;
-    }
+
    
     .textpart {
         width:600px;
@@ -661,32 +665,29 @@ input{
 @media(min-width:320px) and (max-width:768px){
     .boygirl{
         width: 30vh;
-        height:30vh;
+        height:16vh;
     }
     .friend{
-        font-size: 24px;
+        font-size: 28px;
         margin-top: 20px;
     }
     .invite_text {
-        font-size: 15px;
+        font-size: 16px;
         margin: 10px 0 10px;
+        line-height: 1.8;
     }
     .section2{
         padding-top: 40px;
     }
     .pregnantgirl{
         width: 25vh;
-        height: 25vh;
+        height: 20vh;
     }
-    .down{
-        width:  40px;
-        height: 20px;
-        margin-top: 20px;
-    }
-   
+
     .textpart {
-        width:280px;
+        width:90%;
         background-size: 55px;
+        margin:0 auto;
     }
     .maternity {
         width: 200px;
