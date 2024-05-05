@@ -52,18 +52,3 @@ let audio=document.getElementById("myAudio")
 // });
 
 
-function dropHandler(event) {
-  event.preventDefault();
-
-  const url = event.dataTransfer.getData('text/plain');
-  const img = document.createElement('img');
-  img.src = url("img/Group 13.png");
-  img.onload = function() {
-      document.getElementById('dropzone').innerHTML = '';
-      document.getElementById('dropzone').appendChild(img);
-  };
-}
-
-function dragOverHandler(event) {
-  event.preventDefault();
-}
