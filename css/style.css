@@ -328,6 +328,31 @@ header{
     box-sizing: border-box;
     width: 100%;
 }
+.mytext{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px 0;
+    color: #2b3d00;
+    text-align: center;
+
+}
+.mytext2{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+    padding:0 10px ;
+    color: #2b3d00;
+    font-style: italic;
+    text-align: center;
+}
+.center_text{
+    font-size: 20px;
+}
+.bg050{
+    padding: 0 30px;
+    border: 2px solid #2b3d00;
+    margin-bottom: 0px;
+}
 footer{
     display: flex;
     justify-content: center;
