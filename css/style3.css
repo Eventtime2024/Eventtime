@@ -23,14 +23,7 @@ img{
 body{
     overflow-x: hidden;
 }
-#dropzone {
-    width: 300px;
-    height: 300px;
-    border: 2px dashed #ccc;
-    text-align: center;
-    line-height: 300px;
-    margin: 20px auto;
-}
+
 #myAudio{
     display: none;
 }
