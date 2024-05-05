@@ -32,10 +32,16 @@ button{
     background-position:center;
     background-repeat: no-repeat;
     background-size:  cover;
-    background-attachment: fixed ;
+   position: fixed;
+   top: 0;
+   bottom: 0;
     width: 100%;
     padding:  0 20px;
     box-sizing: border-box;
+}
+.page_content{
+    position: relative;
+    z-index: 10;
 }
 .section1{
     height: 100vh;
