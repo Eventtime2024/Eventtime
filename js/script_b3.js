@@ -4,9 +4,9 @@ $(window).on( 'load', function() {
     $('html, body').animate({scrollTop : 0});
    
 })
-// $(document).on("contextmenu", function(e) {
-//     e.preventDefault();
-// });
+$(document).on("contextmenu", function(e) {
+    e.preventDefault();
+});
 $(document).ready(function(){
     var images = [
         "../img/b33.jpg",
