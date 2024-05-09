@@ -8,9 +8,9 @@ $(window).on( 'load', function() {
     $(".hidden3").css("display","none");
     $("#seall3 button").text("Показать все")
 })
-// $(document).on("contextmenu", function(e) {
-//     e.preventDefault();
-// });
+$(document).on("contextmenu", function(e) {
+    e.preventDefault();
+});
 $(document).ready(function(){
     
     $("#seall1").click(function(){
