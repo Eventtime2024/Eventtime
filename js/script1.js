@@ -49,14 +49,6 @@ $(window).on( 'load', function() {
   
   
   
-//  $("#sub").click(function(event){
-
-//   if($("#guestname").val() !="0" || $("#guestnumber").val() ||  $(".radio-part").val() !="0"){
-   
-//     $(".fill_field").css("display","block")
-//   }
-//   else{
-  
-//   }
-//  })
-   
+ $(document).on("contextmenu", function(e) {
+    e.preventDefault();
+});
