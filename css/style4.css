@@ -245,12 +245,13 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 20px;
+ 
 }
 .dsflex_column{
     display: flex;
     flex-direction: column;
     align-items: center;
+       margin: 0px 20px;
 }
 .timing{
     font-size: 20px;
