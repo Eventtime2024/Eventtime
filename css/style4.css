@@ -29,7 +29,9 @@ img{
     margin: auto;
 
 }
- 
+ .mt20{
+    margin-top: 20px;
+}
 .firstpart{
     background-image: url("../img/wedddd.jpg");
     background-position: center;
