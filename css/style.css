@@ -76,7 +76,7 @@ img{
    opacity: 70%;
 }
 #seall1{
-    display: none;
+    display: block;
 }
 #seall3{
     display: none;
