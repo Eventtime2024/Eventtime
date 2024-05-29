@@ -132,7 +132,7 @@ padding:  0  60px 20px;
 }
 .img2{
     margin: 50px 0 50px;
-    height: 450px;
+    height: 550px;
     width: 450px;
 }
 .invitetext{
@@ -423,8 +423,9 @@ footer{
     }
     .img2 {
         margin-bottom: 50px;
-       
+        height: 400px;
     }
+   
 }
 @media(min-width:768px) and (max-width:920px){
     .section1{
@@ -447,6 +448,7 @@ footer{
     .img2 {
         margin-bottom: 50px;
         width: 100%;
+        height: 550px;
     }
     .line {
         height: 197px;
@@ -475,7 +477,7 @@ footer{
     }
     .img2 {
         margin-bottom: 50px;
-        height: 280px;
+        height: 350px;
         width: 100%;
     }
     .pt20{
