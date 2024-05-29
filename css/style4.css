@@ -27,12 +27,10 @@ img{
 .page{
     max-width: 1440px;
     margin: auto;
-     z-index: 2;
-
+    z-index: 2;
+   
 }
- .mt20{
-    margin-top: 20px!important;
-}
+ 
 .firstpart{
     background-image: url("../img/wedddd.jpg");
     background-position: center;
@@ -133,9 +131,9 @@ padding:  0  60px 20px;
     margin-top: 30px;
 }
 .img2{
-    margin: 20px 0 100px;
+    margin: 50px 0 50px;
     height: 450px;
-    width: 100%;
+    width: 450px;
 }
 .invitetext{
     text-align: center;
@@ -351,6 +349,9 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+.mt20{
+    margin-top: 20px!important;
+}
 @keyframes down{
     0%{
       top: 0%;
@@ -420,6 +421,10 @@ footer{
         font-size: 20px;
         text-align: center;
     }
+    .img2 {
+        margin-bottom: 50px;
+       
+    }
 }
 @media(min-width:768px) and (max-width:920px){
     .section1{
@@ -441,6 +446,7 @@ footer{
     }
     .img2 {
         margin-bottom: 50px;
+        width: 100%;
     }
     .line {
         height: 197px;
@@ -470,6 +476,7 @@ footer{
     .img2 {
         margin-bottom: 50px;
         height: 280px;
+        width: 100%;
     }
     .pt20{
         padding-top: 20px;
