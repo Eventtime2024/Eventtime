@@ -174,7 +174,7 @@ img{
    
 }
 .timing{
-    font-size: 42px;
+    font-size: 36px;
     text-align: center;
     padding: 60px 0 20px;
 }
@@ -197,17 +197,17 @@ img{
    
 }
 .timing1{
-    font-size:32px;
+    font-size:28px;
     font-style: italic;
     text-align: center;
 
 }
 .timing2{
-    font-size:30px;
+    font-size:28;
     font-style: italic;
 }
 .timing3{
-    font-size:38px;
+    font-size:32px;
     font-style: italic;
     text-align: center;
 }
