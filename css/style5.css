@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: whisper;
+    src: url("../fonts/ofont.ru_Miama Nueva.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("../fonts/insight-melody.ttf");
+}
+@font-face{
+    font-family: font3;
+    src:url("../fonts/1926-font.otf");
+}
+@font-face{
+    font-family: font4;
+    src:url("../fonts/ofont.ru_Decadance Cursiv.ttf");
+}
+ .page{
+    max-width: 1024px;
+    margin: auto;
+    background-color:#7c75651a;
+    overflow: hidden;
+ }
+img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.firstpart{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/wed544.png");
+    background-size: cover;
+    box-sizing: border-box;
+    padding:30px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+ .imgpart{
+    height: 400px;
+    margin-top: 20px;
+    width: 300px;
+ }
+ .savebox{
+    background-color: rgb(0,0,0,0.45);
+    padding: 5px;
+ }
+.save{
+    font-size: 38px;
+    font-family: whisper;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    transition-duration:1s!important;
+}
+.jsend{
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.small{
+    font-size: 22px!important;
+}
+
+.btn button{
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  background: transparent!important;
+
+}
+.bright{
+    border-right: 1px solid black;
+    margin-right: 5px;
+  
+}
+.mr5{
+    margin-right: 5px!important;
+}
+.btn_box{
+    
+    display:  flex;
+    padding: 5px 0;
+    border-radius: 15px;
+    background-color: rgb(0,0,0,0.45);
+}
+.secondpart{
+    padding: 20px;
+}
+.names{
+    font-family: whisper;
+    font-size: 40px;
+    color: #474343;
+    margin-bottom: 30px;
+}
+.center{
+    text-align: center!important;
+    margin: 0;
+    font-size: 32px;
+}
+.right{
+    text-align: right!important;
+    margin: 0;
+}
+.dsflex{
+    display: flex;
+}
+.date1{
+    font-size: 32px;
+    font-family: whisper;
+    text-align: center;
+}
+.line{
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    margin: 0 10px;
+}
+.align_c{
+    align-items: center;
+    justify-content: space-between;
+}
+.m20{
+    margin: 20px 0;
+}
+.play{
+    width: 85px;
+    height: 80px;
+    background-image: url("../img/hearticon.png");
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.ml5{
+    margin-left: 5px;
+}
+.btnimg{
+  width: 25px;
+  height: 25px;
+ 
+}
+.pause{
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/hearticon.png");
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.jscenter{
+    justify-content: center;
+}
+.dearfrend{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+   text-align: center;
+}
+.textpart{
+    padding: 50px 0;
+     
+}
+.text{
+    margin-top: 20px;
+    font-size: 28px;
+  font-style: italic;
+   text-align: center;
+   text-align: justify;
+   
+}
+.timing{
+    font-size: 42px;
+    text-align: center;
+    padding: 60px 0 20px;
+}
+.jsspace{
+    justify-content: space-around;
+}
+.img1{
+    width: 60%;
+   height: auto;
+   position: relative;
+   z-index: 2;
+   
+}
+.img2{
+    width: 55%;
+    height: auto;
+    margin-top: -60px;
+    position: relative;
+   z-index: 1;
+   
+}
+.timing1{
+    font-size:38px;
+    font-style: italic;
+    text-align: center;
+
+}
+.timing2{
+    font-size:30px;
+    font-style: italic;
+}
+.timing3{
+    font-size:45px;
+    font-style: italic;
+    text-align: center;
+}
+.line2{
+    border-bottom: 2px solid;
+    padding: 20px 0;
+}
+.m100{
+    margin: 50px 0;
+}
+.address{
+    font-size: 24px;
+    text-align: center;
+    font-family: font2;
+}
+.links{
+    text-decoration: none!important;
+    color: #000000!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #000000;
+    width: 130px;
+    height: 40px; 
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+.lastpart{
+    padding: 50px 0 0;
+}
+
+.lasttext{ 
+    font-size: 26px;
+ margin:0;
+ color: #000;
+ font-style: italic;
+ text-align: center;
+ margin:40px 0 20px;
+ }
+ 
+ .site{
+   text-decoration: none!important;
+   color: #000!important;
+   font-family: font2;
+   font-size: 20px;
+   display: inline-block;
+   margin-top: 15px;
+}
+.names2{
+    font-family: whisper;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.logo a{
+    width: 100%
+}
+
+.invitetext{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color:#000000;
+    margin: 30px 0;
+}
+
+.radio-part{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+input:focus{
+    outline: none;
+    background-color: transparent;
+}
+label{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+   color: #000;
+   line-height: 15px;
+    margin: 0 ;
+    margin-left: 10px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:  #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #000000;
+}
+::-webkit-input-placeholder {  
+    color: #000!important;
+    font-weight: 400;
+  }
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #545252;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #000000;
+}
+.guest{
+    border:none;
+    background:transparent;
+    width: 100%;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+}
+.radiobox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.lastimg{
+    background-image: url("../img/wed51.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;   
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+.section1_part1{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0,0,0,0.32);
+}
+.tillwedding{
+    font-family: font2;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: 0!important;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#group{
+ display: flex;
+   width: 100%;
+  justify-content: space-between;
+ }
+  #group span{
+    font-size:22px;
+    color: #fff;
+    font-weight: 600;
+}
+.border{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.links:hover{
+background-color: #000;
+color: #fff!important;
+}
+#btn1:hover{
+    opacity: 0.70;
+}
+#btn2:hover{
+    opacity: 0.70;
+}
+
+@media(min-width:1024px){
+    .firstpart{
+        height: 100%;
+    }
+    .imgpart{
+        height: 100%;
+    }
+}
+@media(min-width:920px) and (max-width:1024px){
+    .imgpart {
+        height: 80%;
+        width: 60%;
+    }
+    .firstpart{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       height: 100%;
+    }
+    .names{
+        font-size: 90px;
+        margin-bottom: 60px;
+    }
+}
+@media(min-width:768px) and (max-width:920px){
+    .imgpart {
+        height: 70%;
+        width: 40%;
+    }
+    .firstpart{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       height: 100vh;
+    }
+    .names{
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+}
