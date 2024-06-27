@@ -118,6 +118,6 @@ let audio=document.getElementById("myAudio")
   })
  
 
-// $(document).on("contextmenu", function(e) {
-//   e.preventDefault();
-// });
+$(document).on("contextmenu", function(e) {
+  e.preventDefault();
+});
