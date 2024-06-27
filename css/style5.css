@@ -118,6 +118,11 @@ img{
     font-family: whisper;
     text-align: center;
 }
+.month{
+    font-size: 30px;
+    font-family: whisper;
+    text-align: center;
+}
 .line{
     width: 5px;
     height: 100px;
