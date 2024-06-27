@@ -1,5 +1,7 @@
 $(window).on( 'load', function() {
     $('html, body').animate({scrollTop : 0});
+    $("#play").css("display","block");.
+    $("#pause").css("display","none");
     });
 
     let date=new Date("September 09 2024 00:00:00");
