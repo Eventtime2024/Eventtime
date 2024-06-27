@@ -1,6 +1,6 @@
 $(window).on( 'load', function() {
     $('html, body').animate({scrollTop : 0});
-    $("#play").css("display","block");.
+    $("#play").css("display","block");
     $("#pause").css("display","none");
     });
 
