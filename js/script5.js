@@ -51,7 +51,8 @@ $("#btn1").click(function(){
      $(".names2").text("Սիլվիա և Անդրե");
      $("#link1").text("Ինչպես հասնել");
      $("#link2").text("Ինչպես հասնել");
-    
+     $("#link3").text("Միանալ խմբին");
+     $(".group").text("Այստեղ կարող եք ուղարկել Ձեր կողմից արված հարսանեկան գեղեցիկ լուսանկարներն ու հոլովակներ");
      $(".month").text("Սեպտեմբեր");
      $(".anun").text("Սիլվիա");
      $(".anun2").text("Անդրե");
@@ -84,7 +85,8 @@ $("#btn1").click(function(){
        $(".names2").text("Силвия и Андре");
        $("#link1").text("как добраться");
        $("#link2").text("как добраться");
-      
+       $("#link3").text("Вступить группу ");
+       $(".group").text("Присоединяйтесь и отправляйте в эту группу фото и видео со свадебного дня, которые вы успели сделать.");
        $(".month").text("Сентябрь");
        $(".anun").text("Силвия");
        $(".anun2").text("Андре");
@@ -96,3 +98,24 @@ $("#btn1").click(function(){
        $("#guestnumber").attr('placeholder',"Число гостей");
        $("#tillwedding").text("ДО СВАДЬБЫ");
 })
+
+
+let audio=document.getElementById("myAudio")
+ $("#play").click(function(){
+  $("#play").css("display","none");
+      $("#pause").css("display", "block");
+      
+      audio.play();
+      
+  } )
+  $("#pause").click(function(){
+      $("#pause").css("display","none");
+      $("#play").css("display","block");
+      audio.pause();
+      audio.currentTime = 0;
+  })
+ 
+
+// $(document).on("contextmenu", function(e) {
+//   e.preventDefault();
+// });
