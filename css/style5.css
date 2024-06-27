@@ -131,36 +131,21 @@ img{
 .m20{
     margin: 20px 0;
 }
-.play{
-    width: 85px;
-    height: 80px;
-    background-image: url("../img/hearticon.png");
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    
-}
 .ml5{
     margin-left: 5px;
 }
-.btnimg{
-  width: 25px;
-  height: 25px;
- 
-}
+
 .pause{
     width: 80px;
     height: 80px;
-    background-image: url("../img/hearticon.png");
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     display: none;
+   
+}
+.play{
+    width: 80px;
+    height: 80px;
+  
 }
 .jscenter{
     justify-content: center;
@@ -246,10 +231,26 @@ img{
     margin: 20px 0;
     border-radius: 6px;
 }
+#link3{
+    text-decoration: none!important;
+    color: #000000!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #000000;
+    width: 160px;
+    height: 40px; 
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 6px;
+}
 .lastpart{
     padding: 50px 0 0;
 }
-
+#link3:hover{
+    background-color: #000;
+    color: #fff!important;
+}
 .lasttext{ 
     font-size: 26px;
  margin:0;
@@ -424,7 +425,18 @@ color: #fff!important;
 #btn2:hover{
     opacity: 0.70;
 }
-
+.camera{
+    width: 70px;
+    height: 100px;
+    margin:30px 0;
+}
+.group{
+    text-align: center;
+    font-size: 14px;
+}
+#myAudio{
+    display: none;
+}
 @media(min-width:1024px){
     .firstpart{
         height: 100%;
