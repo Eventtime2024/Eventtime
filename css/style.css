@@ -75,6 +75,7 @@ img{
 .menu_hidden li a:hover{
    opacity: 70%;
 }
+ 
 #seall3{
     display: none;
 }
@@ -244,6 +245,9 @@ header{
 }
 .w5{
     background-image:  url("../img/Group 101.png");
+}
+.w6{
+    background-image:  url("../img/Group 105.png");
 }
 .examples2{
     width: 250px;
