@@ -26,3 +26,23 @@ function counts(){
 }
 counts();
 setInterval(counts,1000);
+
+
+let audio=document.getElementById("myAudio")
+ $("#play").click(function(){
+  $("#play").css("display","none");
+      $("#pause").css("display", "block");
+      
+      audio.play();
+      
+  } )
+  $("#pause").click(function(){
+      $("#pause").css("display","none");
+      $("#play").css("display","block");
+      audio.pause();
+      audio.currentTime = 0;
+  });
+
+  $(document).on("contextmenu", function(e) {
+  e.preventDefault();
+});
