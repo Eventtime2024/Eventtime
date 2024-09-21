@@ -22,7 +22,17 @@
       <div class="heading">
          <h1>ALEN & SARA  </h1> 
          <p class="save">Save the Date</p>
-         <p class="line"></p>
+        <div class="dsflex song"> <p class="line"></p>
+          <div class="w30">
+          <div class="play" id="play">
+            <img   src="../img/play11.png" alt="">
+          </div>
+          <div class="pause" id="pause">
+            <img    src="../img/play12.png" alt="">
+          </div>
+        </div>
+          <p class="line"></p>
+        </div>
          <p class="date">22 November 2024</p>
 
         
@@ -162,7 +172,16 @@
 
    </div>
    
-
+   <div class="music" id="play">
+  
+    <audio id="myAudio" controls  autostart="false" controlsList="nodownload noplaybackrate">
+      <source src="../audio/У Тебя Есть Я .mp3" type="audio/mpeg">
+      <source src="../audio/У Тебя Есть Я .ogg" type="audio/ogg">
+     
+  
+    </audio>
+   
+  </div>
 
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
